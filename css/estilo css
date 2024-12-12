@@ -1,0 +1,50 @@
+/* Cargar la fuente desde la carpeta fonts */
+@font-face {
+    font-family: 'Bernardo Moda'; /* El nombre que quieres darle a la fuente */
+    src: url('../fonts/Bernardo Moda Contrast.ttf') format('truetype'); /* Ruta correcta a la fuente */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Aplicar la fuente a todo el cuerpo del sitio */
+body {
+    font-family: 'Bernardo Moda', sans-serif; /* Aplica la fuente personalizada */
+    background-color: #f4f4f4; /* Este es solo un ejemplo de fondo, si lo necesitas */
+    color: #333; /* Color de texto por defecto */
+    font-size: 1.1em; /* Aumento del 10% en el tamaño de fuente */
+}
+
+/* Aplicar tamaño y color a los encabezados (h1, h2) */
+h1 {
+    font-family: 'Bernardo Moda', sans-serif;
+    font-size: 2.2em; /* Tamaño aumentado */
+    color: #ff00ff; /* Color fucsia */
+}
+
+h2 {
+    font-family: 'Bernardo Moda', sans-serif;
+    font-size: 1.7em; /* Tamaño aumentado */
+    color: #ff00ff; /* Color fucsia */
+}
+
+/* Estilo de los párrafos */
+p {
+    font-family: 'Bernardo Moda', sans-serif;
+    font-size: 1.1em; /* Aumento del 10% en el tamaño de fuente */
+}
+
+/* Estilos de enlaces */
+a {
+    text-decoration: none;
+    color: #1a73e8; /* Color de enlaces */
+}
+
+/* Estilo para la barra de navegación */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Otros estilos adicionales */
+

@@ -1,0 +1,21 @@
+/* Aumentar el tamaño de la fuente en todo el cuerpo y centrar el texto */
+body {
+    font-size: 110%; /* Aumenta el tamaño de la fuente en un 10% */
+    text-align: center; /* Centra el texto en todo el cuerpo */
+    margin: 0;
+    padding: 0;
+    font-family: 'Bernardo Moda', sans-serif; /* Aplica la fuente personalizada si es necesario */
+}
+
+/* Si también deseas centrar los encabezados y párrafos específicos */
+h1, h2, h3, p {
+    text-align: center; /* Asegura que los títulos y párrafos también estén centrados */
+    font-size: 1.1em; /* Aumenta el tamaño de los textos de los títulos y párrafos */
+}
+
+/* Para imágenes también centradas */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
